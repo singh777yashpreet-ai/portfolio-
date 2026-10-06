@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yashpreet Singh | Digital Marketing Professional</title>
+<meta name="description" content="Portfolio of Yashpreet Singh - SEO, Google Ads, Meta Ads, Email Marketing, Lead Generation and Website Creation.">
+<style>
+:root{color-scheme:light;--blue:#1d4ed8;--blue2:#eff6ff;--ink:#0f172a;--mute:#475569;--line:#e2e8f0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.65}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+header{background:var(--blue2);border-bottom:1px solid var(--line)}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0;flex-wrap:wrap;gap:8px}
+nav b{color:var(--blue);font-size:18px}
+nav a{color:var(--mute);text-decoration:none;margin-left:16px;font-size:14px}
+nav a:hover{color:var(--blue)}
+.hero{padding:48px 0 56px}
+.hero small{color:var(--blue);font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:clamp(32px,6vw,52px);margin:8px 0;line-height:1.1}
+.hero p{max-width:620px;color:var(--mute);font-size:18px}
+.btn{display:inline-block;padding:11px 20px;border-radius:8px;text-decoration:none;font-weight:600;margin:6px 8px 0 0}
+.p{background:var(--blue);color:#fff}.s{border:1px solid var(--blue);color:var(--blue);background:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:28px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center}
+.stat b{display:block;color:var(--blue);font-size:22px}.stat span{color:var(--mute);font-size:13px}
+section{padding:46px 0;border-bottom:1px solid var(--line)}
+h2{font-size:26px;margin:0 0 6px;color:var(--blue)}
+.lead{color:var(--mute);margin:0 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.card{border:1px solid var(--line);border-radius:12px;padding:18px;background:#fff}
+.card h3{margin:0 0 6px;font-size:17px}.card p{margin:0;color:var(--mute);font-size:14.5px}
+.card ul{margin:8px 0 0;padding-left:18px;color:var(--mute);font-size:14px}
+.tag{display:inline-block;background:var(--blue2);color:var(--blue);padding:3px 10px;border-radius:99px;font-size:12px;font-weight:600;margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{border:1px solid var(--line);background:#fff;padding:6px 12px;border-radius:99px;font-size:13.5px;color:var(--ink)}
+.step{display:flex;gap:14px;margin-bottom:14px}
+.num{flex:none;width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.step h3{margin:0;font-size:16px}.step p{margin:2px 0 0;color:var(--mute);font-size:14.5px}
+.contact li{list-style:none;margin-bottom:6px}
+a{color:var(--blue)}
+footer{padding:24px 0;text-align:center;color:var(--mute);font-size:14px}
+
+/* ---- Effects & animation ---- */
+#bar{position:fixed;left:0;top:env(safe-area-inset-top,0px);height:3px;width:0;background:linear-gradient(90deg,#1d4ed8,#60a5fa);z-index:50;transition:width .1s}
+header{position:relative;overflow:hidden}
+header .wrap{position:relative;z-index:1}
+.blob{position:absolute;border-radius:50%;filter:blur(60px);opacity:.45;z-index:0;animation:float 9s ease-in-out infinite}
+.b1{width:260px;height:260px;background:#93c5fd;top:-60px;right:-40px}
+.b2{width:200px;height:200px;background:#bfdbfe;bottom:-50px;left:-40px;animation-delay:-4s}
+@keyframes float{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(24px) scale(1.08)}}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.hero small,.hero h1,.hero p,.hero .btn,.stats{animation:rise .7s ease both}
+.hero h1{animation-delay:.1s}.hero p{animation-delay:.2s}.hero .btn{animation-delay:.3s}.stats{animation-delay:.45s}
+h1 span.hl{background:linear-gradient(90deg,#1d4ed8,#3b82f6,#1d4ed8);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:rise .7s ease both,shine 4s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+.cursor{display:inline-block;width:2px;background:var(--blue);margin-left:2px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.btn{transition:transform .2s,box-shadow .2s,background .2s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(29,78,216,.25)}
+.p:hover{background:#1e40af}.s:hover{background:var(--blue2)}
+.card,.stat{transition:transform .25s,box-shadow .25s,border-color .25s}
+.card:hover,.stat:hover{transform:translateY(-6px);box-shadow:0 12px 26px rgba(29,78,216,.14);border-color:#93c5fd}
+.chips span{transition:all .2s}
+.chips span:hover{background:var(--blue);color:#fff;transform:translateY(-2px)}
+nav a{position:relative}
+nav a:after{content:"";position:absolute;left:0;bottom:-3px;height:2px;width:0;background:var(--blue);transition:width .25s}
+nav a:hover:after{width:100%}
+.num{transition:transform .3s}.step:hover .num{transform:scale(1.15) rotate(8deg)}
+h2{position:relative;display:inline-block}
+h2:after{content:"";display:block;height:3px;width:0;background:var(--blue);border-radius:3px;margin-top:4px;transition:width .8s .2s}
+.in h2:after,section.in h2:after{width:48px}
+.js .reveal{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.js .reveal.show{opacity:1;transform:none}
+#top{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));width:42px;height:42px;border-radius:50%;border:0;background:var(--blue);color:#fff;font-size:18px;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s,transform .2s;z-index:40}
+#top.on{opacity:1;pointer-events:auto}#top:hover{transform:translateY(-3px)}
+@media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
+
+/* ===== Light blue background + animations ===== */
+body{background:linear-gradient(135deg,#e0f2fe,#dbeafe,#eff6ff,#bfdbfe);background-size:300% 300%;animation:bgmove 16s ease infinite;position:relative;overflow-x:hidden}
+@keyframes bgmove{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.bg{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.bg i{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(59,130,246,.35),rgba(59,130,246,0) 70%);animation:float 14s ease-in-out infinite}
+.bg i:nth-child(1){width:380px;height:380px;top:-80px;left:-80px}
+.bg i:nth-child(2){width:460px;height:460px;top:35%;right:-140px;animation-delay:-5s;animation-duration:18s}
+.bg i:nth-child(3){width:340px;height:340px;bottom:-100px;left:25%;animation-delay:-9s}
+@keyframes float{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(40px,-50px) scale(1.12)}}
+header{background:rgba(255,255,255,.55);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+section{border-bottom:1px solid rgba(29,78,216,.12)}
+.card,.stat{background:rgba(255,255,255,.85);transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+.card:hover,.stat:hover{transform:translateY(-6px);box-shadow:0 14px 28px rgba(29,78,216,.18);border-color:#93c5fd}
+.chips span{transition:all .25s ease}
+.chips span:hover{background:var(--blue);color:#fff;transform:translateY(-3px)}
+.btn{transition:transform .25s ease,box-shadow .25s ease,background .25s ease}
+.btn:hover{transform:translateY(-3px);box-shadow:0 10px 20px rgba(29,78,216,.28)}
+.p:hover{background:#1e40af}
+nav a{position:relative}
+nav a::after{content:"";position:absolute;left:0;bottom:-3px;width:0;height:2px;background:var(--blue);transition:width .3s ease}
+nav a:hover::after{width:100%}
+.hero small,.hero h1,.hero p,.hero .btn,.stats{opacity:0;animation:rise .8s ease forwards}
+.hero small{animation-delay:.1s}.hero h1{animation-delay:.25s}.hero p{animation-delay:.4s}
+.hero .btn{animation-delay:.55s}.stats{animation-delay:.7s}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.hero h1 span{background:linear-gradient(90deg,#1d4ed8,#38bdf8,#1d4ed8);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 4s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+.num{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(29,78,216,.45)}50%{box-shadow:0 0 0 10px rgba(29,78,216,0)}}
+.tag{transition:background .25s,color .25s}.card:hover .tag{background:var(--blue);color:#fff}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal,.hero *{opacity:1!important;transform:none!important}}
+</style>
+</head>
+<body>
+<div class="bg"><i></i><i></i><i></i></div>
+<div id="bar"></div>
+<header><div class="blob b1"></div><div class="blob b2"></div><div class="wrap">
+<nav><b>Yashpreet Singh</b><div><a href="#about">About</a><a href="#skills">Skills</a><a href="#services">Services</a><a href="#exp">Experience</a><a href="#work">Work</a><a href="#contact">Contact</a></div></nav>
+<div class="hero">
+<small><span id="typed">Digital Marketing Professional</span><span class="cursor">&nbsp;</span></small>
+<h1><span class="hl">Yashpreet Singh</span></h1>
+<p>Results-focused digital marketer who combines SEO, paid advertising, email campaigns and website building to help businesses grow their online presence and generate quality leads.</p>
+<a class="btn p" href="#contact">Hire Me</a><a class="btn s" href="https://cricktexplaindox.in/" target="_blank" rel="noopener">View My Website</a>
+<div class="stats">
+<div class="stat"><b data-n="8" data-s="+">8+</b><span>Marketing Skills</span></div>
+<div class="stat"><b>HIIT</b><span>Ambala City Training</span></div>
+<div class="stat"><b>Live</b><span>Project Experience</span></div>
+<div class="stat"><b data-n="1" data-s="">1</b><span>Live Website</span></div>
+</div>
+</div></div></header>
+
+<main class="wrap">
+<section id="about"><h2>About Me</h2>
+<p class="lead">Who I am and what I do</p>
+<p>I am a digital marketing student from Sarangpur, Punjab. I completed my 12th in 2026 and I am now pursuing B.Com, which gives me a solid base in business and commerce. Alongside my studies, I trained in digital marketing at HIIT, Ambala City, where I worked on live projects and learned how campaigns are planned, launched and improved.</p>
+<p>I enjoy the full journey from building a website to attracting visitors and converting them into customers. My goal is to grow into a skilled digital marketing professional who delivers measurable results for brands and businesses.</p></section>
+
+<section id="skills"><h2>Skills &amp; Expertise</h2>
+<p class="lead">Core strengths across search, ads, email, leads and web</p>
+<div class="grid">
+<div class="card"><span class="tag">Organic Growth</span><h3>SEO</h3><ul><li>Keyword research</li><li>On-page optimization</li><li>Meta titles and descriptions</li><li>Content and blog optimization</li></ul></div>
+<div class="card"><span class="tag">Paid Ads</span><h3>Google Ads &amp; Meta Ads</h3><ul><li>Search campaign setup</li><li>Audience and keyword targeting</li><li>Ad copy writing</li><li>Budget and performance tracking</li></ul></div>
+<div class="card"><span class="tag">Retention</span><h3>Email Marketing</h3><ul><li>Email list building</li><li>Campaign design and copy</li><li>Follow-up sequences</li><li>Open and click tracking</li></ul></div>
+<div class="card"><span class="tag">Sales Funnel</span><h3>Lead Generation</h3><ul><li>Landing page and forms</li><li>Lead capture strategy</li><li>Funnel planning</li><li>Lead follow-up</li></ul></div>
+<div class="card"><span class="tag">Development</span><h3>Website Creation</h3><ul><li>Responsive website design</li><li>Basic HTML coding</li><li>Mobile-friendly layouts</li><li>Speed and usability basics</li></ul></div>
+<div class="card"><span class="tag">Brand Reach</span><h3>Social Media Marketing</h3><ul><li>Content planning</li><li>Post and creative ideas</li><li>Community engagement</li><li>Page growth strategy</li></ul></div>
+</div>
+<h3 style="margin:26px 0 10px;font-size:16px">Additional Strengths</h3>
+<div class="chips"><span>Content Marketing</span><span>Keyword Research</span><span>Campaign Planning</span><span>Ad Copywriting</span><span>Audience Targeting</span><span>Performance Tracking</span><span>Communication</span><span>Time Management</span></div></section>
+
+<section id="services"><h2>Services I Offer</h2>
+<p class="lead">How I can help your business</p>
+<div class="grid">
+<div class="card"><h3>Website Design &amp; Setup</h3><p>Clean, responsive business websites that look professional and load well on every device.</p></div>
+<div class="card"><h3>SEO Optimization</h3><p>Improve search visibility with keyword targeting and on-page improvements.</p></div>
+<div class="card"><h3>Google &amp; Meta Ads Management</h3><p>Plan and run ad campaigns focused on relevant traffic and enquiries.</p></div>
+<div class="card"><h3>Email Campaigns</h3><p>Write and set up email campaigns to engage customers and bring them back.</p></div>
+<div class="card"><h3>Lead Generation</h3><p>Build simple funnels and capture forms that turn visitors into leads.</p></div>
+<div class="card"><h3>Social Media Management</h3><p>Content ideas and posting plans that strengthen your brand presence.</p></div>
+</div></section>
+
+<section id="process"><h2>My Work Process</h2>
+<p class="lead">A simple, clear approach to every project</p>
+<div class="step"><div class="num">1</div><div><h3>Understand</h3><p>Learn about your business, audience and goals.</p></div></div>
+<div class="step"><div class="num">2</div><div><h3>Plan</h3><p>Choose the right channels, keywords and budget.</p></div></div>
+<div class="step"><div class="num">3</div><div><h3>Execute</h3><p>Build the website, launch campaigns and create content.</p></div></div>
+<div class="step"><div class="num">4</div><div><h3>Track &amp; Improve</h3><p>Review results and keep improving performance.</p></div></div></section>
+
+<section id="exp"><h2>Experience &amp; Education</h2>
+<p class="lead">Training and academic background</p>
+<div class="grid">
+<div class="card"><span class="tag">Training</span><h3>Digital Marketing</h3><p><b>HIIT, Ambala City</b></p><ul><li>Hands-on training in SEO, ads, email and social media</li><li>Worked on live project experience</li><li>Learned campaign planning and lead generation</li></ul></div>
+<div class="card"><span class="tag">Pursuing</span><h3>Bachelor of Commerce (B.Com)</h3><p>Building a strong foundation in business, accounting and commerce.</p></div>
+<div class="card"><span class="tag">2026</span><h3>12th Pass</h3><p>Completed senior secondary education in 2026.</p></div>
+</div></section>
+
+<section id="work"><h2>Featured Work</h2>
+<p class="lead">A live project where I apply my skills</p>
+<div class="card"><span class="tag">Live Website</span><h3>Cricktexplaindox</h3>
+<p>A website I built and promote, using website creation, SEO and lead generation techniques to grow its reach and audience.</p>
+<ul><li>Designed and launched the website</li><li>Applied SEO for better search visibility</li><li>Promoted with digital marketing strategies</li></ul>
+<p style="margin-top:12px"><a href="https://cricktexplaindox.in/" target="_blank" rel="noopener" style="font-weight:600">Visit cricktexplaindox.in →</a></p></div></section>
+
+<section id="contact" style="border:0"><h2>Let's Work Together</h2>
+<p class="lead">Have a project or an opportunity? Get in touch.</p>
+<ul class="contact" style="padding:0">
+<li>📞 <a href="tel:+919253571251">+91 9253571251</a></li>
+<li>✉️ <a href="mailto:singhyashpreet680@gmail.com">singhyashpreet680@gmail.com</a></li>
+<li>📍 Sarangpur, Punjab – 140501</li>
+</ul>
+<a class="btn p" href="mailto:singhyashpreet680@gmail.com">Send Email</a><a class="btn s" href="tel:+919253571251">Call Now</a>
+</section>
+</main>
+<footer>© 2026 Yashpreet Singh · Digital Marketing Professional</footer>
+<button id="top" aria-label="Back to top">↑</button>
+<script>
+(function(){
+document.documentElement.classList.add('js');
+var rm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+var els=document.querySelectorAll('section .card,section .step,section .lead,.chips,section h2');
+els.forEach(function(e,i){e.classList.add('reveal');e.style.transitionDelay=(i%4)*80+'ms'});
+function count(el){var n=+el.dataset.n,s=el.dataset.s,t=0;var id=setInterval(function(){t++;el.textContent=Math.min(n,Math.ceil(n*t/20))+s;if(t>=20)clearInterval(id)},45)}
+if('IntersectionObserver' in window&&!rm){
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('show');if(x.target.tagName==='H2')x.target.parentNode.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});
+els.forEach(function(e){io.observe(e)});
+var so=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.querySelectorAll('[data-n]').forEach(count);so.disconnect()}})},{threshold:.4});
+var st=document.querySelector('.stats');if(st)so.observe(st);
+}else{els.forEach(function(e){e.classList.add('show')});document.querySelectorAll('section').forEach(function(x){x.classList.add('in')})}
+var bar=document.getElementById('bar'),top=document.getElementById('top');
+function sc(){var h=document.documentElement.scrollHeight-innerHeight;bar.style.width=(h>0?scrollY/h*100:0)+'%';top.classList.toggle('on',scrollY>400)}
+addEventListener('scroll',sc,{passive:true});sc();
+top.onclick=function(){scrollTo({top:0,behavior:'smooth'})};
+if(!rm){var t=document.getElementById('typed'),w=['Digital Marketing Professional','SEO Specialist','Google Ads Learner','Website Creator'],a=0,b=0,d=false;
+(function tick(){var f=w[a];b+=d?-1:1;t.textContent=f.slice(0,b);var delay=d?35:70;if(!d&&b===f.length){d=true;delay=1400}else if(d&&b===0){d=false;a=(a+1)%w.length;delay=300}setTimeout(tick,delay)})()}
+})();
+</script>
+<script>
+(function(){
+var els=document.querySelectorAll('section h2,section .lead,.card,.step,.chips,.stat');
+els.forEach(function(e,i){if(!e.closest('.hero')){e.classList.add('reveal');e.style.transitionDelay=(i%4)*80+'ms'}});
+if(!('IntersectionObserver' in window)){document.querySelectorAll('.reveal').forEach(function(e){e.classList.add('in')});return}
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
